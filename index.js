@@ -19,6 +19,7 @@ const DBSchema = new mongoose.Schema({
     todo: { type: String, required: true }
 });
 
+
 const DBModel = mongoose.model('todo', DBSchema);
 
 app.use(express.json());
